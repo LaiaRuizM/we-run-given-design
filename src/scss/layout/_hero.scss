@@ -1,0 +1,67 @@
+.hero {
+    color: #ffffff;
+    text-align: center;
+    // background-image: url(./images/cover.jpeg);
+    // background-repeat: no-repeat;
+    // background-size: 32px;
+    // background-position: center;
+    // border: 5px solid red;
+
+    &__box {
+        display: flex;
+        flex-direction: column; //Para evitar que el resto de componentes se suban y, que no haya nada al lado del hero
+        width: 100%;
+        transform: translateY(-380px);
+        position: absolute;
+        align-items: center;
+        padding-right: 210px;
+    }
+
+    &__image {
+        width: 100%;
+        object-fit: cover;
+        height: 100vh;
+    }
+
+    &__title {
+        text-transform: uppercase; // Propiedad para poner capital letter desde styles y evitar ponerla a mano en el HTML.
+        display: flex;
+        // z-index: 1;
+        color: #ffffff;
+        line-height: 1.6; // Interlineado (espaciado)
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: center;
+        // margin: 280.1px 0 34px 5px;
+        transform: rotate(-0.23deg);
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        width: 20ch;
+        padding-top: -50px;
+    }
+
+    &__text {
+        color: #ffffff;
+        line-height: 19px;
+        width: 30ch;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+        width: 38px;
+        height: 36px;
+        color: #f26002;
+        border-radius: 50%; // Para evitar poner la etiqueta de botón (ya que sino, no podemos enlazar, no disponemos de href), se ha aplicado esta propiedad para conseguir el efecto y así poder enalazar
+        margin: auto;
+        margin-top: 15px;
+        background-color: #ffffff;
+        padding-top: 3px; // Para centrar la flecha
+    }
+
+
+    }
+

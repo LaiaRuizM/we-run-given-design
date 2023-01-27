@@ -1,5 +1,18 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; // Mantenerlo fijo y que no desaparezca al realizar scroll.
+    background-color: #f26002;
+    width: 38px;
+    height: 35px;
+    // z-index: 1;
+    // top: 0px;
+    &menu {
+        width: 16px;
+        height: 13px;
+    }
+}    
+
+
+// MEDIA TABLET

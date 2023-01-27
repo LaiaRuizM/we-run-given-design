@@ -1,8 +1,41 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+    display: flex;
+    flex-direction: column; // Para dejarlos posicionados en columna
+    background-color: #4a4a4a;
+    color: #ffffff;
+    align-items: center;
+    text-align: center; 
+    padding: 65px 0 36px; // padding 65px top, 0px right & left, 36px bottom
+
+    &__nav {
+        color: #ffffff;
+        line-height: 1.8;
+    }
+
+    &__list-item {
+        color: #ffffff;
+        //line-height: 1.5;
+    }
+
+    &__navtwo {
+        color: #ffffff;
+        line-height: 1.8;
+        padding-top: 25px;
+    }
+
+    &__container {
+        line-height: 2.1;
+        padding-top: 25px;
+    }
+
+    &__container-color {
+        color: #f26002;
+    }
+
+    &__list-link {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
 }
