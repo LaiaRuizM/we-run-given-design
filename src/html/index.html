@@ -4,22 +4,119 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Título</title>
+    <title>Evaluación final módulo 1 | Laia Ruiz</title>
     <!-- Google Fonts
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     -->
     <!-- Icons
 
     -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+    <!-- <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/favicon.png" /> -->
+</head>
 
 <body>
-  <include src="./partials/header.html" title="Bienvenidos a Adalab"></include>
+  <!-- <include src="./partials/header.html" title="Bienvenidos a Adalab"></include>
   <include src="./partials/main.html"></include>
   <include src="./partials/footer.html"></include>
-  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/main.js"></script> -->
+
+  <header class="header">
+    <a class="header__link" href="#https://adalab.es/" > <!-- Linked to Adalab web | I put # to make the link blue as the first time that someones press the link -->
+      <img class="header__menu" src="../images/ico-menu.svg" alt="Icono del menú, parte superior izquierda de la pantalla" /> <!-- Maybe future translation -->
+    </a>
+  </header>
+
+  <main class="main">
+    <section class="hero"> 
+      <div class="hero__container">
+        <img class="hero__" src="../images/cover.jpeg" alt="Hero de la web, mostrando cómo se están atando las bambas" /> <!-- Maybe future translation -->
+      <div>  
+        <h1 class="hero__title">Hasta un 50% de descuento</h1>  <!-- Put it in capital letter -->
+        <p class="hero__text">Ya están aquí las ofertas de fin de temporada</p>
+        <div class="hero__button">
+          <button>
+            <a href="#section">
+              <img src="../images/ico-scroll-down.svg" alt="Button with scroll down">
+            </a> <!-- Try to make it interactive-->
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="sectionone">
+      <small class="sectioneone__small">Los sentimientos nos inspiran</small>
+      <h2 class="sectionone__title">Conecta Contigo</h2>
+      <p class="sectionone__text">
+        Esto es una celebración de todo lo que nos mueve. Del poder de elegir y de la libertad de ser. Rendimos homenaje al
+        hermoso caos del movimiento y a la plena consciencia que tan bien nos hacen sentir.
+      </p>
+      <button class="sectionone__button">Comprar</button>
+    </section>
+    <section class="sectiontwo">
+      <h3 class="sectiontwo__title">Año nuevo, movimientos nuevos</h3>
+      <div class="sectiontwo__container">
+        <article class="sectiontwo__title2">
+          <h4 class="sectiontwo__text">Entrenamientos</h4>
+          <p>Sesiones de running y entrenamientos.</p>
+        </article>
+        <article class="sectiontwo__title2">
+          <h4 class="sectiontwo__text">Cualquier nivel</h4>
+          <p>Entrenamientos para cada nivel.</p>
+        </article>
+        <article class="sectiontwo__title2">
+          <h4 class="sectiontwo__text">Exclusividad</h4>
+          <p>Entrenamientos para cada nivel.</p>
+        </article>
+      </div>
+      <button class="sectiontwo__button">Empezar ahora</button>
+      <div class="sectiontwo__container2">
+        <a href="#main" class="sectiontwo__link">
+          <img class="sectiontwo__button" src="../images/ico-arrow.svg" alt="Button with upper scroll">
+        </a>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <nav class="footer__nav">
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a class="footer__list-link" href="#https://adalab.es/">ZAPATILLAS</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__list-link" href="#https://adalab.es/">ROPA</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__list-link" href="#https://adalab.es/">NIÑO/A</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__list-link" href="#https://adalab.es/">DESTACADOS</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__list-link" href="#https://adalab.es/">TIPS</a>
+        </li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+        <a a class="footer__list-link" href="#https://adalab.es/">TWITTER</a>
+        </li>
+        <li>
+        <a a class="footer__list-link" href="#https://adalab.es/">INSTAGRAM</a>
+        </li>
+        <li>
+        <a a class="footer__list-link" href="#https://adalab.es/">YOUTUBE</a>
+        </li>
+      </ul>
+    </nav>
+      <div>
+        <p>&copy; 2023 </p>
+        <p>We ❤︎ run</p>
+      </div>
+  </footer>
+
+
 </body>
 
 </html>
