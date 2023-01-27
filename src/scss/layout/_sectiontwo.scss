@@ -1,0 +1,94 @@
+.sectiontwo {
+    background-color: #f2f2f2;
+    text-align: center;
+    border: 10px solid cyan;
+
+    padding: 25px 0px 5px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        border: 5px solid black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__article {
+        padding: 20px 70px 5px 67px;
+        border: 5px solid yellow;
+        //width: 30px;
+        //height: 100px;
+    }
+
+    &__title {
+        //poner fuente
+        width: 18ch;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    &__title2 {
+        // poner fuente
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    &__text {
+        // poner fuente
+    }
+
+    &__button {
+        //cursor: crosshair;
+        background-color: #f26002;
+        //poner fuente robotomedium 20px
+        border: none;
+        border-radius: 25px;
+        margin-top: 30px;
+        text-decoration: none;
+        line-height: 5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #f2f2f2;
+    } 
+
+    &__container2 {
+        display: flex;
+        justify-content: center;
+        //align-content: center;
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: 25px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin: auto;
+    } 
+
+    &__arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 38px;
+        height: 36px;
+        color: #f26002;
+        border-radius: 50%; // Para evitar poner la etiqueta de botón (ya que sino, no podemos enlazar, no disponemos de href), se ha aplicado esta propiedad para conseguir el efecto y así poder enalazar
+        margin: auto; // Para que quede centrada
+        top: 20px;
+        bottom: 5px;
+        background-color: #ffffff;
+        padding-top: 5px; // Para centrar la flecha
+        margin-bottom: -15px;
+    }
+}
+
+
+
+
+
+
+
+
+

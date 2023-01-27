@@ -1,12 +1,14 @@
-// @import 'core/variables';
-@import 'core/reset';
 // @import 'components/code';
 // @import 'components/links';
-// @import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/hero';
 // @import 'pages/index';
+// @import 'core/variables';
+@import 'core/reset';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/sectionone';
+@import 'layout/sectiontwo';
+@import 'layout/footer';
+
 
 * {
     margin: 0;

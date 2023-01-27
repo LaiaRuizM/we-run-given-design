@@ -1,0 +1,40 @@
+.sectionone {
+    padding: 34px 14px 50px 18px;
+    
+    &__small {
+        color: #f26002; 
+        //poner letra robo reg a 14
+        line-height: 28px;
+    }
+
+    &__title {
+        line-height: 28px;
+        //poner letra a roboslab 24
+        margin-bottom: 10px;
+    }    
+
+    &__text {
+        color: #4a4a4a;
+        //poner letra a robo reg 18
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+    &__button {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border: 2px solid #f26002; //border-style: solid.
+        color: #f26002;
+        border-radius: 25px;
+    }
+
+    // &__button::after {
+    //     transform: rotate(1turn);
+    // }
+}
+    
