@@ -1,11 +1,15 @@
 .hero {
-    color: #ffffff;
-    text-align: center;
-    // background-image: url(./images/cover.jpeg);
+    //color: #ffffff;
+    //text-align: center;
+    //background-image: url("../images/cover.jpeg");
     // background-repeat: no-repeat;
     // background-size: 32px;
     // background-position: center;
     // border: 5px solid red;
+
+    &__container {
+        background-image: url("../images/cover.jpeg");
+    }
 
     &__box {
         display: flex;
@@ -17,11 +21,11 @@
         padding-right: 210px;
     }
 
-    &__image {
-        width: 100%;
-        object-fit: cover;
-        height: 100vh;
-    }
+    // &__image {
+    //     width: 100%;
+    //     object-fit: cover;
+    //     height: 100vh;
+    // }
 
     &__title {
         text-transform: uppercase; // Propiedad para poner capital letter desde styles y evitar ponerla a mano en el HTML.
