@@ -8,74 +8,61 @@
     text-align: center; 
     padding: 65px 0 36px; // padding 65px top, 0px right & left, 36px bottom
     gap: 30px;
-    border: 5px solid black;
-
     &__list1 {
         color: $color-white-text1;
-        line-height: 1.8;
         font: $roboto_reg_16;
-        border: 5px solid red;
     }
-
     &__list-link {
         color: $color-white-text1;
         text-decoration: none;
         text-transform: uppercase;
+        line-height: 1.5;
     }
-
     &__list2 {
         color: $color-white-text1;
         line-height: 30px;
         padding-top: 8px;
         font: $roboto_reg_16;
-        border: 5px solid yellow;
        // align-items: center;
     }
-
     &__container {
         line-height: 2.1;
         padding-top: 5px;
-        border: 5px solid cyan;
     }
-
     &__container-copy {
         color: $color-white-text1;
         font: $roboto_reg_14;
         line-height: 2.2;
         //margin-top: 32px;
     }
-
     &__container-text {
         color: $color-white-text1;
         font: $roboto_reg_14;
     }
-
     &__container-color {
         color: $color-orange-primary; // orange heart
     }
 }
-
 
 @media all and (min-width: 768px) {
     .footer {
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
-        padding: 56px 135px 34px 178px;
-        align-item: center;
+        padding: 56px 135px 42px 178px;
         text-align: justify;
     }
-
+    .footer__list2 {
+        margin-top: -10px;
+    }
     .footer__container {
         order: -1; // De esta manera, posicionamos lo último (&__copy y &__text), en primera posición.
+        margin-top: -10px;
     }
-
     .footer__copy {
         margin: 0;
     }
 }
-
-
 @media all and (min-width: 1024px) {
     .footer {
         padding: 50px 300px 100px;

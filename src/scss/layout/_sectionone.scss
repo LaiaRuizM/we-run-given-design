@@ -1,26 +1,24 @@
 .sectionone {
-    padding: 34px 14px 50px 18px;
-
+    padding: 34px 14px 55px 18px;
+    margin-top: -10px;
     &__small {
         color: $color-orange-primary; 
         font: $roboto_reg_14;
         line-height: 30px;
+        margin-top: 10%;
     }
-
-
     &__title {
         line-height: 30px;
         font: $roboto_slab_24;
         margin-bottom: 8px;
     }    
-
     &__text {
         color: $color-darkgrey-bckgr2;
         font: $roboto_reg_18;
         line-height: 30px;
         margin-bottom: 28px;
+        width: 30ch;
     }
-
     &__button {
         text-decoration: none;
         font-weight: 600;
@@ -29,12 +27,11 @@
         padding-bottom: 10px;
         padding-left: 40px;
         padding-right: 40px;
-        border: 2px solid $color-orange-primary; //border-style: solid.
+        border: 2px solid $color-orange-primary; 
         color: $color-orange-primary;
         border-radius: 25px;
         line-height: 1.5px;
         font: $roboto_med_20;
-        //background-color: $color-white-text1;
     }
 }
     
@@ -67,8 +64,3 @@
          margin-bottom: 7px;
     }
 }
-
-
-// &__button::after {
-//     transform: rotate(1turn);
-// }

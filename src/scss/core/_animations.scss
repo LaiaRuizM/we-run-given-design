@@ -1,110 +1,110 @@
 // :hoover = Se refiere a cualquier elemento sobre el que se coloca el puntero del mouse. Por ejemplo: Un link, un botón.
 
-.hero:hover {
-    display: grid;
-    padding: 5em 15em;
-    background: url(https://t2.uc.ltmcdn.com/es/posts/1/0/4/que_es_el_fitness_y_sus_beneficios_52401_orig.jpg) center center / cover;
+// .hero:hover {
+//     display: grid;
+//     padding: 5em 15em;
+//     background: url(https://t2.uc.ltmcdn.com/es/posts/1/0/4/que_es_el_fitness_y_sus_beneficios_52401_orig.jpg) center center / cover;
 
-    .hero__title {
-        color: transparent;
-        text-align: 0 1px 1px;
-        -webkit-text-stroke: 2px #fff;
-        text-shadow: none;
-        transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
+//     .hero__title {
+//         color: transparent;
+//         text-align: 0 1px 1px;
+//         -webkit-text-stroke: 2px #fff;
+//         text-shadow: none;
+//         transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+//     }
 
-    .hero__title:hover {
-        transform: scale(0.8);
-        color: lightcoral;
-        -webkit-text-stroke: 2px transparent;
-        text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-}
+//     .hero__title:hover {
+//         transform: scale(0.8);
+//         color: lightcoral;
+//         -webkit-text-stroke: 2px transparent;
+//         text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+//     }
+// }
 
-.header:hover {
-    background: url(../images/Laia.png) center center / cover;
-    width: 250px;
-    height: 250px;
-}
+// .header:hover {
+//     background: url(../images/Laia.png) center center / cover;
+//     width: 250px;
+//     height: 250px;
+// }
 
-.hero__button:hover {
-    background-color: black;
-    box-shadow: 5px 8px 5px lightgray;
-    animation-name: button;
-    animation-duration: 1s;
-    cursor: pointer;
-}
+// .hero__button:hover {
+//     background-color: black;
+//     box-shadow: 5px 8px 5px lightgray;
+//     animation-name: button;
+//     animation-duration: 1s;
+//     cursor: pointer;
+// }
 
-@keyframes button {
-    0% {
-        transform: translateY(15px);
-    }
-    30% {
-        transform: translateY(-15px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    80% {
-        transform: translateY(-25px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
+// @keyframes button {
+//     0% {
+//         transform: translateY(15px);
+//     }
+//     30% {
+//         transform: translateY(-15px);
+//     }
+//     50% {
+//         transform: translateY(20px);
+//     }
+//     80% {
+//         transform: translateY(-25px);
+//     }
+//     100% {
+//         transform: translateY(0);
+//     }
+// }
 
-.sectionone__button:hover {
-    transform: scale(4.5);
-    background-color: lightcoral;
-    color: black;
-    border: 2px dashed black;
-    transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
-    text-shadow: 5px 10px 25px whitesmoke;
-}
+// .sectionone__button:hover {
+//     transform: scale(4.5);
+//     background-color: lightcoral;
+//     color: black;
+//     border: 2px dashed black;
+//     transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
+//     text-shadow: 5px 10px 25px whitesmoke;
+// }
 
-.sectiontwo__button:hover {
-    transform: scale(4.5);
-    transform: rotate (180deg);
-    background-color: whitesmoke;
-    color: lightsalmon;
-    border: 2px dashed lightsalmon;
-    transition: all 1s ease, linear;
-    box-shadow: 5px 10px 25px black;
-    -webkit-text-stroke: 8px transparent;
-}
+// .sectiontwo__button:hover {
+//     transform: scale(4.5);
+//     transform: rotate (180deg);
+//     background-color: whitesmoke;
+//     color: lightsalmon;
+//     border: 2px dashed lightsalmon;
+//     transition: all 1s ease, linear;
+//     box-shadow: 5px 10px 25px black;
+//     -webkit-text-stroke: 8px transparent;
+// }
 
-.sectiontwo__arrow:hover {
-    cursor: cell;
-    transition: all .4s ease;
-    transform: rotate(-45deg);
-}
+// .sectiontwo__arrow:hover {
+//     cursor: cell;
+//     transition: all .4s ease;
+//     transform: rotate(-45deg);
+// }
 
-.section2__container--knob:hover {
-    animation-name: appear;
-    animation-duration: 2s;
-    box-shadow: 2px 3px 3px;
-    background-color: white;
-    animation: moveToLeft 2s ease-in-out;
-}
+// .section2__container--knob:hover {
+//     animation-name: appear;
+//     animation-duration: 2s;
+//     box-shadow: 2px 3px 3px;
+//     background-color: white;
+//     animation: moveToLeft 2s ease-in-out;
+// }
 
-@keyframes appear {
-    0% {
-        transform: scale(0.3);
-    }
-    50% {
-        transform: scale(0.7);
-    }
-    80% {
-        transform: scale(1.8);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
+// @keyframes appear {
+//     0% {
+//         transform: scale(0.3);
+//     }
+//     50% {
+//         transform: scale(0.7);
+//     }
+//     80% {
+//         transform: scale(1.8);
+//     }
+//     100% {
+//         transform: scale(1);
+//     }
+// }
 
-.footer__link:active {
-    color: red;
-}
+// .footer__link:active {
+//     color: red;
+// }
 
 // https: //www.w3schools.com/howto/howto_css_transition_hover.asp
 // https: //thoughtbot.com/blog/transitions-and-transforms
