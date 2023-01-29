@@ -1,7 +1,39 @@
 .sectiontwo {
     background-color: $color-breakwhite-bckgr1;
     text-align: center;
-    padding: 25px 0px 5px;
+    padding: 25px 0 5px;
+
+    // @media all and (min-width: 768px) {
+        // .sectiontwo {
+        //     padding: 45px 0 11px;
+        // }
+    // }
+
+    // @media all and (min-width: 1200px) {
+    //     .sectiontwo {
+    //          padding-bottom: 21px;
+    // }
+    // }
+
+    &__title {
+        font: $roboto_slab_20;
+        width: 18ch;
+        line-height: 30px;
+        margin: 0 auto;
+        margin-bottom: 30px
+    }
+
+    // @media all and (min-width: 768px) {
+    //     .sectiontwo__title {
+    //         line-height: 45px;
+    //         font: $roboto_slab_28;
+    //     }
+
+    // @media all and (min-width: 1200px) {
+    //     .sectiontwo__title {
+    //         line-height: 45px;
+    //         font: $roboto_slab_32;
+    //     }
 
     &__container {
         display: flex;
@@ -11,18 +43,33 @@
         text-align: center;
     }
 
+    // @media all and (min-width: 768px) {
+    //     .sectiontwo__container {
+    //         display: grid;
+    //         grid-template-columns: 1fr 1fr 1fr;
+    //         column-gap: 20px;
+    //         padding:0 29px 0 47px;
+    //     }
+
+    // @media all and (min-width: 1200px) {
+    //     .sectiontwo__container {
+    //         padding: 0 60px 0 50px;
+    //     }
+
     &__article {
         padding: 20px 70px 5px 67px;
         flex-direction: initial;
     }
 
-    &__title {
-        //poner fuente
-        width: 18ch;
-        line-height: 30px;
-        margin: 0 auto;
-        margin-bottom: 30px
-    }
+        // @media all and (min-width: 768px) {
+        //     .sectiontwo__article {
+        //         padding: 38px 0 0 0;
+        // }
+
+        // @media all and (min-width: 1200px) {
+        //     .sectiontwo__article {
+        //         padding: 52px 0 0 0;
+        // }
 
     &__title2 {
         // poner fuente
@@ -32,11 +79,25 @@
     }
 
     &__text {
-        // poner fuente
+        font: $roboto_reg_18;
         width: 18ch;
         padding-bottom: 30px;
         line-height: 25px;
     }
+
+    // @media all and (min-width: 768px) {
+    //     .sectiontwo__text{
+    //         font: $roboto_reg_20
+    //         padding-top: 18px;
+    //         line-height 25px;
+    // }
+
+    // @media all and (min-width: 1200px) {
+    //     .sectiontwo__text{
+    //         font: $roboto_reg_20
+    //         padding-top: 26px;
+    //         line-height 25px;
+    // }
 
     &__button {
         //cursor: crosshair;
@@ -91,7 +152,7 @@
 
 
 
-
+//MIRAR LA PARTE DE TITLE2 Y ARTICLES!
 
 
 
