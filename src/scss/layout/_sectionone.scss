@@ -1,23 +1,24 @@
 .sectionone {
     padding: 34px 14px 50px 18px;
-    
+
     &__small {
-        color: #f26002; 
-        //poner letra robo reg a 14
-        line-height: 28px;
+        color: $color-orange-primary; 
+        font: $roboto_reg_14;
+        line-height: 30px;
     }
 
+
     &__title {
-        line-height: 28px;
-        //poner letra a roboslab 24
-        margin-bottom: 10px;
+        line-height: 30px;
+        font: $roboto_slab_24;
+        margin-bottom: 8px;
     }    
 
     &__text {
-        color: #4a4a4a;
-        //poner letra a robo reg 18
-        line-height: 28px;
-        margin-bottom: 30px;
+        color: $color-darkgrey-bckgr2;
+        font: $roboto_reg_18;
+        line-height: 30px;
+        margin-bottom: 28px;
     }
 
     &__button {
@@ -28,13 +29,46 @@
         padding-bottom: 10px;
         padding-left: 40px;
         padding-right: 40px;
-        border: 2px solid #f26002; //border-style: solid.
-        color: #f26002;
+        border: 2px solid $color-orange-primary; //border-style: solid.
+        color: $color-orange-primary;
         border-radius: 25px;
+        line-height: 1.5px;
+        font: $roboto_med_20;
+        //background-color: $color-white-text1;
     }
-
-    // &__button::after {
-    //     transform: rotate(1turn);
-    // }
 }
     
+@media all and (min-width: 768px) {
+    .sectionone {
+         padding: 37px 39px 51px 37px;
+    }
+    .sectionone__small {
+         font: $roboto_reg_16;
+         line-height: 30px;
+    }
+    .sectionone__title {
+         line-height: 42px;
+         font: $roboto_slab_32;
+    }
+    .sectionone__text {
+         font: $roboto_reg_20;
+         line-height: 30px;
+    }
+    .sectionone__text {
+         margin-top: 25px;
+    }
+} 
+
+@media all and (min-width: 1200px) {
+    .sectionone {
+         padding: 58px 136px 67px 275px;
+    }
+    .sectionone__title {
+         margin-bottom: 7px;
+    }
+}
+
+
+// &__button::after {
+//     transform: rotate(1turn);
+// }
