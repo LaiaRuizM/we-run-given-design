@@ -3,16 +3,29 @@
     justify-content: center;
     align-items: center;
     position: fixed; // Mantenerlo fijo y que no desaparezca al realizar scroll.
-    background-color: #f26002;
+    background-color: $color-orange-primary;
     width: 38px;
     height: 35px;
     z-index: 1;
     // top: 0px;
-    &menu {
+    &__menu {
         width: 16px;
         height: 13px;
     }
 }    
 
+@media all and (min-width: 768px) {
+    .header {
+        width: 42px;
+        height: 44px;
+    }
+}
 
-// MEDIA TABLET
+@media all and (min-width: 1024px) {
+    .header {
+        width: 46px;
+        height: 45px;
+    }
+}
+
+// Únicamente varía el icono del menú, en pocos px, según cada versión.
