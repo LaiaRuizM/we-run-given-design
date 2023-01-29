@@ -63,12 +63,12 @@
         align-items: center;
         width: 30px;
         height: 38px;
-        color: #f26002;
+        color: $color-orange-primary;
         border-radius: 50%; // Para evitar poner la etiqueta de botón (ya que sino, no podemos enlazar, no disponemos de href), se ha aplicado esta propiedad para conseguir el efecto y así poder enalazar
         margin: auto; // Para que quede centrada
         //top: 20px;
         //bottom: 20px;
-        background-color: #ffffff;
+        background-color: $color-white-text1;
         //padding-bottom: -15px;
         padding-top: 10px; // Para centrar la flecha
         //margin-bottom: 35px;
@@ -81,9 +81,11 @@
         padding: 45px 0 11px;
     }
     .sectiontwo__title {
-        line-height: 45px;
+        line-height: 40px;
         font: $roboto_slab_28;
         width: auto; // De esta manera, evitamos que esté el título en dos líneas, ya que en la versión móvil, tiene 18ch.
+        margin: 0 109px 38px 133px;
+        margin-bottom: 15px;
     }
     .sectiontwo__title--report {
         line-height: 30px;
@@ -92,8 +94,8 @@
     .sectiontwo__container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 20px;
-        padding:0 29px 0 47px;
+        column-gap: 10px;
+        padding: 0 25px 0 45px;
     }
     .sectiontwo__container--knob {
          top: 32px;
@@ -104,7 +106,10 @@
     .sectiontwo__text{
         font: $roboto_reg_20;
         padding-top: 18px;
-        line-height: 25px;
+        padding-left: 20px;
+        width: 20ch;
+        line-height: 28px;
+        align-items: center;
     }
     .sectiontwo__button {
         margin-top: 38px;
@@ -133,6 +138,8 @@
         padding-top: 16px;
         line-height: 30px;
         width: auto;
+        border: 5px solid cyan;
+        align-items: center;
     }
     .sectiontwo__button{
         margin-top: 48px;

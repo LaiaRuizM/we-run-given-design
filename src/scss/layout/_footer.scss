@@ -65,7 +65,10 @@
 }
 @media all and (min-width: 1024px) {
     .footer {
-        padding: 50px 300px 100px;
+        padding: 50px 250px 60px 168px;
+    }
+    .footer__container {
+        padding-left: 60px;
     }
 }
 
