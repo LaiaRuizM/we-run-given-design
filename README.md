@@ -1,3 +1,5 @@
+![Laia Ruiz Martínez](../images/Laia.png)
+
 # EJERCICIO DE EVALUACIÓN MÓDULO 1 | LAIA RUIZ MARTÍNEZ
 
 ¡Hola a tod@s 👋🏻!
@@ -18,20 +20,18 @@ A continuación, expongo las herramientas 🛠️ que hemos manejado, durante es
 - SASS / SCSS 🔗
 - GULP 🖌️
 
-## -- ¿Cómo poder usar y mirar este ejercicio? --
-
-—> ACCESO Y EJECUCIÓN = PONERLO (ARRANCAR EL PROYECTO)
+#### -- ¿Cómo poder usar y mirar este ejercicio? --
 
 > **NOTA:** En este ejercicio, podéis encontrar los siguientes ficheros y carpetas:
 
-1. La carpeta `src/` son los ficheros de esta página web: HTML, SCSS e imágenes.
-1. Las carpetas `public/` y `docs/`, se generan automáticamente cuando arrancamos el proyecto. GULP lee los fichero que se encuentran en la carpeta src/, los procesa y después, los genera dentro de `public/` y `docs/`.
-1. Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
+1. La carpeta 📂 `src/` son los ficheros de esta página web: HTML, SCSS e imágenes.
+1. Las carpetas 📚 `public/` y `docs/`, se generan automáticamente cuando arrancamos el proyecto. GULP lee los fichero que se encuentran en la carpeta src/, los procesa y después, los genera dentro de `public/` y `docs/`.
+1. Los ficheros 📝 que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
 
 ¡Si tenéis cualquier duda o quieres contribuir, no dudéis en contactar conmigo! 💡
 
 Muchas gracias por mirar mi pequeña contribución ⏳.
 
-⌨️ Con ❤️ por @LaiaRuizM 😊
+⌨️ Con ❤️ por Laia
 
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
