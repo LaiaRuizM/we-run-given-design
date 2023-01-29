@@ -1,41 +1,86 @@
 .footer {
     display: flex;
     flex-direction: column; // Para dejarlos posicionados en columna
-    background-color: #4a4a4a;
-    color: #ffffff;
+    background-color: $color-darkgrey-bckgr2;
+    color: $color-white-text1;
     align-items: center;
+    justify-content: center;
     text-align: center; 
     padding: 65px 0 36px; // padding 65px top, 0px right & left, 36px bottom
+    gap: 30px;
+    border: 5px solid black;
 
-    &__nav {
-        color: #ffffff;
+    &__list1 {
+        color: $color-white-text1;
         line-height: 1.8;
-    }
-
-    &__list-item {
-        color: #ffffff;
-        //line-height: 1.5;
-    }
-
-    &__navtwo {
-        color: #ffffff;
-        line-height: 1.8;
-        padding-top: 25px;
-    }
-
-    &__container {
-        line-height: 2.1;
-        padding-top: 25px;
-    }
-
-    &__container-color {
-        color: #f26002;
+        font: $roboto_reg_16;
+        border: 5px solid red;
     }
 
     &__list-link {
-        color: #ffffff;
+        color: $color-white-text1;
         text-decoration: none;
         text-transform: uppercase;
     }
 
+    &__list2 {
+        color: $color-white-text1;
+        line-height: 30px;
+        padding-top: 8px;
+        font: $roboto_reg_16;
+        border: 5px solid yellow;
+       // align-items: center;
+    }
+
+    &__container {
+        line-height: 2.1;
+        padding-top: 5px;
+        border: 5px solid cyan;
+    }
+
+    &__container-copy {
+        color: $color-white-text1;
+        font: $roboto_reg_14;
+        line-height: 2.2;
+        //margin-top: 32px;
+    }
+
+    &__container-text {
+        color: $color-white-text1;
+        font: $roboto_reg_14;
+    }
+
+    &__container-color {
+        color: $color-orange-primary; // orange heart
+    }
 }
+
+
+@media all and (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 56px 135px 34px 178px;
+        align-item: center;
+        text-align: justify;
+    }
+
+    .footer__container {
+        order: -1; // De esta manera, posicionamos lo último (&__copy y &__text), en primera posición.
+    }
+
+    .footer__copy {
+        margin: 0;
+    }
+}
+
+
+@media all and (min-width: 1200px) {
+    .footer {
+        padding: 50px 300px 100px;
+    }
+}
+
+
+
