@@ -1,4 +1,4 @@
-![Laia Ruiz Martínez](../images/Laia.png)
+![Laia Ruiz Martínez](src/images/Laia.png)
 
 # EJERCICIO DE EVALUACIÓN MÓDULO 1 | LAIA RUIZ MARTÍNEZ
 
