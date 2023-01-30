@@ -32,7 +32,8 @@
         letter-spacing: normal;
         text-align: center;
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-        width: 20ch;
+        //width: 20ch;
+        align-items: center;
     }
     &__text {
         font: $roboto_reg_16;
@@ -59,36 +60,42 @@
 
 @media all and (min-width: 768px) {
     .hero__box {
-        transform: translateX(-55px);
+        // transform: translateX(-5%);
+        // //width: auto;
+        // background-size: cover;
+        // background-position: center;
     }
     .hero__title {
         font: $roboto_slab_75;
         line-height: 1.1;
         margin-top: -50px;
         padding-left: 65px;
+        align-items: center;
     }
     .hero__text {
         font: $roboto_reg_24;
         line-height: 28px;
         padding-left: 65px;
+        align-items: center;
     }
     .hero__button {
         width: 43px;
         height: 45px;
-        margin-left: 450px;
+        //margin-left: 430px;
+        align-items: center;
     }
 }
 
 @media all and (min-width: 1024px) {
     .hero__box {
-        transform: translateX(50px);
+        //transform: translateX(50px);
     }
     .hero__title {
         font: $roboto_slab_100;
         text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         line-height: 1.1;
         margin-top: -80px;
-        padding-left: 25px;
+        padding-left: 35px;
     }
     .hero__text {
         width: auto;
@@ -96,6 +103,7 @@
     .hero__button {
         width: 46px;
         height: 46px;
-        margin-left: 510px;
+        //margin-left: 550px;
+        align-items: center;
     }
 }
