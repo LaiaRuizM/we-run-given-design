@@ -32,7 +32,6 @@
         letter-spacing: normal;
         text-align: center;
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-        //width: 20ch;
         align-items: center;
     }
     &__text {
@@ -59,12 +58,6 @@
 }
 
 @media all and (min-width: 768px) {
-    .hero__box {
-        // transform: translateX(-5%);
-        // //width: auto;
-        // background-size: cover;
-        // background-position: center;
-    }
     .hero__title {
         font: $roboto_slab_75;
         line-height: 1.1;
@@ -81,15 +74,11 @@
     .hero__button {
         width: 43px;
         height: 45px;
-        //margin-left: 430px;
         align-items: center;
     }
 }
 
 @media all and (min-width: 1024px) {
-    .hero__box {
-        //transform: translateX(50px);
-    }
     .hero__title {
         font: $roboto_slab_100;
         text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
