@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evaluación final módulo 1 | Laia Ruiz</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.google.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ICONS -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/images/favicon.png" /> -->
+
+    <!-- STYLES -->
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a class="header__link" href="https://adalab.es/" target="_blank"> 
+    <!-- Linked to Adalab web. If you put # to make the link blue as the first time that someones press the link it's ok if you are at the same file (index.html), but when you move some part to partials and you put # the website does not find the file index.html. 
+    Also, the class _blank is use when someone clicks on the link, the website directs them to a different page. This propousal it is to avoid losing your own website. -->
+      <img class="header__menu" src="./assets/images/ico-menu.svg"
+        alt="Icono del menú, parte superior izquierda de la pantalla" /> <!-- Maybe future translation -->
+    </a>
+  </header>
+
+  <!-- 
+  En el caso que se hubiera tratado de un desplegable en el menú, hubiera escogido la opción NAV. -->
+  
+  <main class="main">
+    <section class="hero" id="hero_anchor">
+        <div class="hero__box">
+          <h1 class="hero__title">Hasta un 50% de descuento</h1> 
+          <p class="hero__text">Ya están aquí las ofertas de fin de temporada</p>
+          <div class="hero__button">
+            <a href="#sectiontwo_anchor">
+              <img src="./assets/images/ico-scroll-down.svg" alt="Button with scroll down">
+            </a> 
+          </div>
+        </div>
+    </section>
+      
+      
+
+    <section class="sectionone">
+        <small class="sectionone__small">Los sentimientos nos inspiran</small>
+        <h2 class="sectionone__title">Conecta Contigo</h2>
+        <p class="sectionone__text">
+          Esto es una celebración de todo lo que nos mueve. Del poder de elegir y de la libertad de ser. Rendimos homenaje
+          al
+          hermoso caos del movimiento y a la plena consciencia que tan bien nos hacen sentir.
+        </p>
+        <a class="sectionone__button" href="" target="_blank">Comprar</a>
+    </section>
+    <section class="sectiontwo" id="sectiontwo_anchor">
+        <h3 class="sectiontwo__title">Año nuevo, movimientos nuevos</h3>
+        <div class="sectiontwo__container">
+          <article class="sectiontwo__article">
+            <h4 class="sectiontwo__title--report">Entrenamientos</h4>
+            <p class="sectiontwo__text">Sesiones de running y entrenamientos.</p>
+          </article>
+          <article class="sectiontwo__article">
+            <h4 class="sectiontwo__title--report">Cualquier nivel</h4>
+            <p class="sectiontwo__text">Entrenamientos para cada nivel.</p>
+          </article>
+          <article class="sectiontwo__article">
+            <h4 class="sectiontwo__title--report">Exclusividad</h4>
+            <p class="sectiontwo__text">Productos para miembros premium.</p>
+          </article>
+        </div>
+        <a class="sectiontwo__button" href="#" >Empezar ahora</a>
+        <div class="sectiontwo__container--knob">
+          <a href="#hero_anchor" class="sectiontwo__link">
+            <img class="sectiontwo__arrow" src="./assets/images/ico-arrow.svg" alt="Button with upper scroll">
+          </a>
+        </div>
+    </section>
+
+  </main>
+
+  <!-- <script src="./assets/js/main.js"></script> -->
+  
+  <footer class="footer">
+    <nav>
+      <ul class="footer__list1">
+        <a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Zapatillas</li>
+        </a> 
+        <a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Ropa</li>
+        </a>
+        <a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Niño/a</li>
+        </a>
+        <a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Destacados</li>
+        </a>
+        <a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Tips</li>
+        </a>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="footer__list2">
+        <a a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Twitter</li>
+        </a>
+        <a a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Instagram</li>
+        </a>
+        <a a class="footer__list-link" href="https://adalab.es/" target="_blank">
+          <li>Youtube</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="footer__container">
+      <p class="footer__container-copy">&copy; 2023 </p>
+      <p class="footer_container-text">we <span class="footer__container-color">❤︎</span> run</p>
+      <!--Otra opción sería ir a la web Fontawesome.com y poner: 
+        <p> we <i class="fa-solid fa-heart"></i> run </p> y linkear la fuente en el head del HTML -->
+    </div>
+  </footer>
+
+  <!-- Just to remember (this is explain in partial header.html), the class _blank is use when someone clicks on the link, the website directs them to a different page. This propousal it is to avoid losing your own website. -->
+
+</body>
+</html>
