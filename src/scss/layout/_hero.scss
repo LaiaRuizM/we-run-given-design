@@ -2,23 +2,19 @@
     background-image: url("../images/cover.jpeg");
     display: flex;
     flex-direction: column;
-    //background-attachment: scroll;
-    //background-size: cover; // Para que se comporte como una  portada
-    background-position: 40%;
-    background-size: 1270px 850px;
+    background-size: cover; // Para que se comporte como una  portada
     background-repeat: no-repeat;
     justify-content: flex-end;
     align-items: center;
     position: relative;
     color: $color-white-text1;
-    //background-position: center; // Para que se muestre desde el centro
+    background-position: center; // Para que se muestre desde el centro
     width: 100%;
     height: 100vh;
     //height: calc(100vh - 35px); // A la altura, le hemos restado la parte de la barra de navegación (menú) con una altura correspondiente a 35px
     &__box {
         display: flex;
         flex-direction: column; //Para evitar que el resto de componentes se suban y, que no haya nada al lado del hero
-        //width: 100%;
         transform: translateX(-5px);
         position: absolute;
         align-items: center;
@@ -62,15 +58,6 @@
 }
 
 @media all and (min-width: 768px) {
-    .hero {
-        background-position: 25%;
-        background-size: 1250px 900px;
-        background-repeat: no-repeat;
-        justify-content: flex-end;
-        align-items: center;
-        position: relative;
-        color: $color-white-text1;
-    }
     .hero__box {
         transform: translateX(-55px);
     }
@@ -93,15 +80,6 @@
 }
 
 @media all and (min-width: 1024px) {
-    .hero {
-        background-position: 70%;
-        background-size: 1600px 1150px;
-        background-repeat: no-repeat;
-        justify-content: flex-end;
-        align-items: center;
-        position: relative;
-        color: $color-white-text1;
-    }
     .hero__box {
         transform: translateX(50px);
     }
@@ -121,17 +99,3 @@
         margin-left: 510px;
     }
 }
-
-// -- EN EL CASO DE HABER SEGUIDO CON LA IMG EN HTML:
-// &__image {
-//     width: 100%;
-//     object-fit: cover;
-//     height: 100vh;
-// }
-
-// &__container {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     transform: translateY();
-// }
