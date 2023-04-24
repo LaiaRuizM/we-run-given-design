@@ -1,5 +1,3 @@
-![Laia Ruiz Martínez](src/images/Laia.png)
-
 ## EJERCICIO DE EVALUACIÓN MÓDULO 1 | LAIA RUIZ MARTÍNEZ
 
 ¡Hola a tod@s 👋🏻!
@@ -91,3 +89,5 @@ Muchas gracias por mirar mi pequeña contribución ⏳.
 ⌨️ Con ❤️ por [Laia](https://github.com/LaiaRuizM)
 
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+
+![Laia Ruiz Martínez](src/images/Laia.png)
